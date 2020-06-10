@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    color: red;
+}
+
+#page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#page>div {
+    width: 50%;
+    height: 50vh;
+    border: 1px solid red;
+}
